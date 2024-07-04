@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Vision Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Diet Vision Dashboard</h1>
+        <div class="date-container">
+            <p id="currentDate"></p>
+        </div>
+    </header>
+    <main>
+        <section class="summary">
+            <div class="calorie-circle eaten">
+                <h2>Eaten</h2>
+                <div class="summary-details">
+                    <div class="value" id="eatenCalories">0</div>
+                    <p>Calories</p>
+                </div>
+            </div>
+            <div class="calorie-circle remaining">
+                <h2>Remaining</h2>
+                <div class="summary-details">
+                    <div class="value" id="remainingCalories">2000</div>
+                    <p>Calories</p>
+                </div>
+            </div>
+            <div class="calorie-circle burned">
+                <h2>Burned</h2>
+                <div class="summary-details">
+                    <div class="value" id="burnedCalories">0</div>
+                    <p>Calories</p>
+                </div>
+            </div>
+        </section>
+        <section class="meal-list">
+            <div class="meal-row">
+                <h3>Breakfast</h3>
+                <div class="meal-details">
+                    <div class="calories" id="breakfastCalories">0</div>
+                    <p>Calories</p>
+                    <div class="mass" id="breakfastMass">0g</div>
+                    <p>Mass</p>
+                    <div class="fat" id="breakfastFat">0g</div>
+                    <p>Fat</p>
+                    <div class="carbs" id="breakfastCarbs">0g</div>
+                    <p>Carbs</p>
+                    <div class="protein" id="breakfastProtein">0g</div>
+                    <p>Protein</p>
+                </div>
+            </div>
+            <div class="meal-row">
+                <h3>Snack</h3>
+                <div class="meal-details">
+                    <div class="calories" id="snackCalories">0</div>
+                    <p>Calories</p>
+                    <div class="mass" id="snackMass">0g</div>
+                    <p>Mass</p>
+                    <div class="fat" id="snackFat">0g</div>
+                    <p>Fat</p>
+                    <div class="carbs" id="snackCarbs">0g</div>
+                    <p>Carbs</p>
+                    <div class="protein" id="snackProtein">0g</div>
+                    <p>Protein</p>
+                </div>
+            </div>
+            <div class="meal-row">
+                <h3>Lunch</h3>
+                <div class="meal-details">
+                    <div class="calories" id="lunchCalories">0</div>
+                    <p>Calories</p>
+                    <div class="mass" id="lunchMass">0g</div>
+                    <p>Mass</p>
+                    <div class="fat" id="lunchFat">0g</div>
+                    <p>Fat</p>
+                    <div class="carbs" id="lunchCarbs">0g</div>
+                    <p>Carbs</p>
+                    <div class="protein" id="lunchProtein">0g</div>
+                    <p>Protein</p>
+                </div>
+            </div>
+            <div class="meal-row">
+                <h3>Dinner</h3>
+                <div class="meal-details">
+                    <div class="calories" id="dinnerCalories">0</div>
+                    <p>Calories</p>
+                    <div class="mass" id="dinnerMass">0g</div>
+                    <p>Mass</p>
+                    <div class="fat" id="dinnerFat">0g</div>
+                    <p>Fat</p>
+                    <div class="carbs" id="dinnerCarbs">0g</div>
+                    <p>Carbs</p>
+                    <div class="protein" id="dinnerProtein">0g</div>
+                    <p>Protein</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Diet Vision. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

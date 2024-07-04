@@ -1,0 +1,112 @@
+/* Retain previous styles and add these */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.date-container {
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.calorie-circle {
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.calorie-circle h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.calorie-circle .summary-details {
+    margin-top: 10px;
+}
+
+.calorie-circle .value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.meal-list {
+    width: 100%;
+}
+
+.meal-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.meal-row h3 {
+    margin: 0;
+}
+
+.meal-details {
+    display: flex;
+    align-items: center;
+}
+
+.meal-details > * {
+    margin-right: 10px;
+}
+
+.meal-details .calories,
+.meal-details .mass,
+.meal-details .fat,
+.meal-details .carbs,
+.meal-details .protein {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
